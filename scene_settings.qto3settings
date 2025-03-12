@@ -1,0 +1,365 @@
+{
+  "KEYFRAMES": {
+    "camera": {
+      "groups": []
+    },
+    "enabled": false,
+    "layers": {
+      "Differenza_41dde40c_dcd3_4456_8227_15121e7013b9": {
+        "enabled": true,
+        "groups": []
+      },
+      "Estratto__attributo__5be6e0fd_3c8d_497f_a967_583ae1795320": {
+        "enabled": true,
+        "groups": []
+      },
+      "Poligoni_eb005ccf_2093_4fbe_9b18_3572b716f2e7": {
+        "enabled": true,
+        "groups": []
+      },
+      "fp:829f54e5": {
+        "enabled": true,
+        "groups": []
+      }
+    },
+    "repeat": false,
+    "startOnLoad": false
+  },
+  "LAYERS": [
+    {
+      "geomType": 1,
+      "layerId": "Estratto__attributo__5be6e0fd_3c8d_497f_a967_583ae1795320",
+      "name": "artworks",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": true,
+        "checkBox_ExportAttrs": true,
+        "checkBox_Label": false,
+        "checkBox_Outline": true,
+        "checkBox_Underline": false,
+        "checkBox_Visible": true,
+        "colorButton_BgColor": [
+          255,
+          255,
+          255,
+          176
+        ],
+        "colorButton_ConnColor": [
+          192,
+          192,
+          208,
+          255
+        ],
+        "colorButton_Label": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_OtlColor": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "comboBox_FontFamily": "sans-serif",
+        "comboBox_ObjectType": "Plane",
+        "comboBox_altitudeMode": null,
+        "comboEdit_Color": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 2
+        },
+        "comboEdit_Color2": {
+          "comboData": null,
+          "comboText": "None",
+          "editText": "",
+          "type": 7
+        },
+        "comboEdit_FilePath": {},
+        "comboEdit_Opacity": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 5
+        },
+        "comboEdit_altitude2": {},
+        "expression_Label": "\"full_id\"",
+        "fieldExpressionWidget_altitude": "1.5*(to_int( \"level\" )+1)",
+        "geomWidget0": {
+          "comboData": null,
+          "comboText": "Expression",
+          "editText": "1",
+          "type": 1
+        },
+        "geomWidget1": {
+          "comboData": null,
+          "comboText": "Expression",
+          "editText": "1",
+          "type": 1
+        },
+        "geomWidget2": {
+          "comboData": null,
+          "comboText": "Expression",
+          "editText": "90",
+          "type": 1
+        },
+        "geomWidget3": {
+          "comboData": null,
+          "comboText": "Expression",
+          "editText": "to_int(  \"direction\" )",
+          "type": 1
+        },
+        "geomWidget4": {},
+        "groupBox_Background": true,
+        "groupBox_Conn": true,
+        "labelHeightWidget": {
+          "comboData": 1,
+          "comboText": "Relative",
+          "editText": "50",
+          "type": 6
+        },
+        "lineEdit_Name": "",
+        "mtlWidget0": {},
+        "mtlWidget1": {},
+        "radioButton_Expression": true,
+        "radioButton_IntersectingFeatures": true,
+        "slider_FontSize": 3
+      },
+      "visible": true
+    },
+    {
+      "geomType": 2,
+      "layerId": "Differenza_41dde40c_dcd3_4456_8227_15121e7013b9",
+      "name": "wall_openings",
+      "properties": {
+        "checkBox_Clickable": false,
+        "checkBox_Clip": true,
+        "checkBox_ExportAttrs": false,
+        "checkBox_Visible": true,
+        "comboBox_ObjectType": "Wall",
+        "comboBox_altitudeMode": null,
+        "comboEdit_Color": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 2
+        },
+        "comboEdit_Color2": {
+          "comboData": null,
+          "comboText": "None",
+          "editText": "",
+          "type": 7
+        },
+        "comboEdit_FilePath": {},
+        "comboEdit_Opacity": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 5
+        },
+        "comboEdit_altitude2": {
+          "comboData": null,
+          "comboText": "Expression",
+          "editText": "0.1",
+          "type": 1
+        },
+        "fieldExpressionWidget_altitude": "3",
+        "geomWidget0": {},
+        "geomWidget1": {},
+        "geomWidget2": {},
+        "geomWidget3": {},
+        "geomWidget4": {},
+        "lineEdit_Name": "",
+        "mtlWidget0": {},
+        "mtlWidget1": {},
+        "radioButton_Expression": true,
+        "radioButton_IntersectingFeatures": true
+      },
+      "visible": true
+    },
+    {
+      "geomType": 3,
+      "layerId": "Poligoni_eb005ccf_2093_4fbe_9b18_3572b716f2e7",
+      "name": "rooms",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": true,
+        "checkBox_ExportAttrs": false,
+        "checkBox_Label": false,
+        "checkBox_Outline": true,
+        "checkBox_Underline": false,
+        "checkBox_Visible": true,
+        "colorButton_BgColor": [
+          255,
+          255,
+          255,
+          176
+        ],
+        "colorButton_ConnColor": [
+          192,
+          192,
+          208,
+          255
+        ],
+        "colorButton_Label": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_OtlColor": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "comboBox_FontFamily": "sans-serif",
+        "comboBox_ObjectType": "Polygon",
+        "comboBox_altitudeMode": null,
+        "comboEdit_Color": {
+          "comboData": 3,
+          "comboText": "Expression",
+          "editText": "'0xcabfbf'",
+          "type": 2
+        },
+        "comboEdit_Color2": {
+          "comboData": null,
+          "comboText": "None",
+          "editText": "",
+          "type": 7
+        },
+        "comboEdit_FilePath": {},
+        "comboEdit_Opacity": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 5
+        },
+        "comboEdit_altitude2": {},
+        "expression_Label": "\"full_id\"",
+        "fieldExpressionWidget_altitude": "0.1",
+        "geomWidget0": {},
+        "geomWidget1": {},
+        "geomWidget2": {},
+        "geomWidget3": {},
+        "geomWidget4": {},
+        "groupBox_Background": true,
+        "groupBox_Conn": true,
+        "labelHeightWidget": {
+          "comboData": 1,
+          "comboText": "Relative",
+          "editText": "50",
+          "type": 6
+        },
+        "lineEdit_Name": "",
+        "mtlWidget0": {},
+        "mtlWidget1": {},
+        "radioButton_Expression": true,
+        "radioButton_IntersectingFeatures": true,
+        "slider_FontSize": 3
+      },
+      "visible": true
+    },
+    {
+      "geomType": 0,
+      "layerId": "fp:829f54e5",
+      "name": "Flat Plane",
+      "properties": {
+        "checkBox_Clickable": false,
+        "checkBox_Frame": false,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "lineEdit_Altitude": "0",
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "02b33f3c",
+            "name": "map (canvas)",
+            "properties": {
+              "checkBox_Shading": true,
+              "checkBox_TransparentBackground": false,
+              "comboBox_TextureSize": "1024",
+              "radioButton_PNG": true,
+              "spinBox_Opacity": 100
+            },
+            "type": 0
+          }
+        ],
+        "mtlId": "02b33f3c",
+        "spinBox_Size": 3
+      },
+      "visible": true
+    }
+  ],
+  "OPT": {
+    "gui.customPlane": true,
+    "localMode": true,
+    "viewpoint": {
+      "lookAt": {
+        "x": 1078912.912128805,
+        "y": 5629144.984930151,
+        "z": -2.616779989771298e-16
+      },
+      "pos": {
+        "x": 1078927.0981440127,
+        "y": 5629082.398767247,
+        "z": 71.0014891003294
+      }
+    }
+  },
+  "OutputFilename": "C:/Users/Admin/Desktop/CIPA2025/app\\index.html",
+  "SCENE": {
+    "checkBox_FixAspectRatio": true,
+    "checkBox_Outline": false,
+    "colorButton_Color": [
+      232,
+      232,
+      232,
+      255
+    ],
+    "colorButton_Fog": [
+      255,
+      255,
+      255,
+      255
+    ],
+    "comboBox_MaterialType": 0,
+    "comboBox_xyShift": true,
+    "groupBox_Fog": false,
+    "lineEdit_CenterX": "1078929.8138681317",
+    "lineEdit_CenterY": "5629146.366559473",
+    "lineEdit_Height": "231.76824829401448",
+    "lineEdit_Rotation": "0",
+    "lineEdit_Width": "231.76824829401448",
+    "lineEdit_zFactor": "1.0",
+    "radioButton_Color": true,
+    "radioButton_NoCoords": true,
+    "slider_Fog": 41
+  },
+  "Template": "3DViewer(dat-gui).html",
+  "Title": "Ricci Oddi OSM-WikiData test",
+  "Version": 20800
+}
