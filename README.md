@@ -1,6 +1,6 @@
 # OSMInd-WikiCH
 
-[...]]
+[...]
 
 **Repository and documentation under construction**
 
@@ -32,8 +32,4 @@
 
 ## References
 
-[...]]
-
-## Acknowledgements
-
-The developers express their gratitude to Ricci Oddi Gallery managers for their support in providing study opportunities.
+* Gaspari, F., Barbieri, F., Fascia, R., Pinto, L.: **Opportunities and challenges of Crowdsourced Indoor Geographic and Semantic Data for Built Heritage**, *Int. Arch. Photogramm. Remote Sens. Spatial Inf. Sci.*, CIPA 2025 conference proceedings to be published in August 2025
