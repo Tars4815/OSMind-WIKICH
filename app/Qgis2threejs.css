@@ -197,7 +197,6 @@ body {
 
 #popupbody {
   padding: 0px 5px 5px;
-  min-width: 290px;
   max-height: 500px;
   overflow: auto;
 }

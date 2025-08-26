@@ -45,8 +45,6 @@
       <!-- camera actions and measure tool -->
       <div id="orbitbtn" class="action-btn action-orbit">Orbit</div>
       <div id="measurebtn" class="action-btn">Measure distance</div>
-      <!-- OSMind-WIKICH -->
-      <div id="wikidatabtn" class="action-btn">Wikidata element</div>
     </div>
 
     <!-- page info -->
@@ -75,7 +73,7 @@
 
       <h1>About</h1>
       <div id="about">
-        This page was made with <a href="https://www.qgis.org/">QGIS</a> and <a href="https://github.com/minorua/Qgis2threejs">Qgis2threejs</a> plugin (version 2.8).
+        This page was made with <a href="https://www.qgis.org/">QGIS</a> and <a href="https://github.com/minorua/Qgis2threejs">Qgis2threejs</a> plugin (version 2.7.1).
         <div>Powered by <a href="https://threejs.org/">three.js</a>,
         <a href="https://code.google.com/p/dat-gui/">dat-gui</a>
         <span id="lib_proj4js"> and <a href="https://trac.osgeo.org/proj4js/">Proj4js</a></span>.</div>
@@ -102,7 +100,7 @@
 <script>
 Q3D.Config.bgColor = 0xe8e8e8;
 Q3D.Config.coord.visible = false;
-Q3D.Config.viewpoint = {lookAt:{x:1078912.912128805,y:5629144.984930151,z:-2.616779989771298e-16},pos:{x:1078927.0981440127,y:5629082.398767247,z:71.0014891003294}};
+Q3D.Config.viewpoint = {lookAt:{x:855410.0050525937,y:5632362.139043033,z:-1.0611514966219294e-15},pos:{x:855417.4765303031,y:5632326.791513443,z:31.45245908023116}};
 Q3D.Config.localMode = true;
 Q3D.Config.gui.customPlane = true;
 
@@ -123,7 +121,6 @@ app.loadSceneFile("./data/index/scene.js", function (scene) {
   // all relevant files have been loaded
 
   if (Q3D.Config.gui.customPlane) {
-    // specify preferred values. If not specified, z range of scene bounding box is used.
     var zMin = undefined,
         zMax = undefined;
     gui.dat.initCustomPlaneFolder(zMin, zMax);
