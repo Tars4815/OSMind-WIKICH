@@ -88,6 +88,12 @@ This step checks geometry consistency (e.g. overlapping polygons, misaligned fea
 
 * Gaspari, F., Barbieri, F., Fascia, R., Pinto, L.: **Opportunities and challenges of Crowdsourced Indoor Geographic and Semantic Data for Built Heritage**, *Int. Arch. Photogramm. Remote Sens. Spatial Inf. Sci.*, CIPA 2025 conference proceedings to be published in August 2025. [Presentation slides available soon]
 
+Related works:
+
+- Potree-CH-template: https://github.com/Tars4815/potree-chtemplate
+- riccio3di: https://github.com/Tars4815/riccio3di
+
+
 ## License
 
 This repository is released under the MIT License.
